@@ -14,10 +14,10 @@ header {
   left: 50%;
   z-index: 999;
   color: #fff;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.1);
   padding: 60px;
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   margin: -200px 0 0 -200px;
   text-align: center;
@@ -26,6 +26,7 @@ header {
 .wrapper {
   width: 100% !important;
   height: 900px;
+  color: black;
 }
 
 .background-video{
@@ -34,4 +35,13 @@ header {
 
 .full-height{
   height: 800px;
+}
+
+header img{
+  display: block;
+  position: relative;
+  left: 0px;
+  width: 250px;
+  height: auto;
+  margin-top: 78px;
 }
